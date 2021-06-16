@@ -22,14 +22,7 @@ const config = {
               'css-loader',
               'sass-loader'
             ]
-          },
-          {
-          test: /\.(png|jpe?g|gif)$/i,
-          loader: "file-loader",
-          options: {
-            name: './img/[name].[ext]',
           }
-         }
         ]
      },
      mode,
