@@ -1,5 +1,11 @@
 <template>
 <main>
+
+    <div class="notify">
+        <h4 class="notify_header"><i class="fas fa-exclamation-circle"></i> Syscoin Core is required</h4>
+        <p>Wallet works with Syscoin Core and you need to install Core version with <b>syscoind</b> inside.</p>
+    </div>
+
     <div class="notify">
         <h4 class="notify_header"><i class="fas fa-exclamation-circle"></i> Reindexing to build local asset index </h4>
         <p>If you previously launched syscoind without assetindex=1 in syscoin.conf, use -reindex, e.g. <b>syscoind -reindex</b> </p>
@@ -12,7 +18,7 @@
 
     <div class="notify">
         <h4 class="notify_header"><i class="fas fa-exclamation-circle"></i> Wallets with Masternodes</h4>
-        <p>Please do not use this application in wallets with Masternodes. For now we are not implement coin control and you can not lock UTXOs. </p>
+        <p>Please do not use this application in wallets with Masternodes. For now we did not implement coin control and you can not lock UTXOs. </p>
     </div>
     
     <div class="btn download_btn" @click="download_file">
@@ -54,6 +60,10 @@ main{
         margin-top: 3%;
         color: #efb509;
 
+        b{
+            font-weight: bolder;
+        }
+
         .notify_header{
             margin-bottom: 1%;
             font-size: 20px;
@@ -72,7 +82,7 @@ main{
         text-align: center;
         width: 40%;
         margin-left: 30%;
-        margin-top: 10%;
+        margin-top: 3%;
         padding: 2%;
         font-size: 20px;
         cursor: pointer;
