@@ -8,7 +8,7 @@
 
     <div class="notify">
         <h4 class="notify_header"><i class="fas fa-exclamation-circle"></i> Reindexing to build local asset index </h4>
-        <p>If you previously launched syscoind without assetindex=1 in syscoin.conf, use -reindex, e.g. <b>syscoind -reindex</b> </p>
+        <p>If you previously launched syscoind without assetindex=1 in syscoin.conf, use wallet option  <b>"Launch Core with reindex"</b> during first wallet launch.</p>
     </div>
 
     <div class="notify">
