@@ -3,7 +3,7 @@
 
     <div class="notify">
         <h4 class="notify_header"><i class="fas fa-exclamation-circle"></i> Syscoin Core is required</h4>
-        <p>Wallet works with Syscoin Core and you need to install Core version with <b>syscoind</b> inside.</p>
+        <p>Wallet works with Syscoin Core and you need to install Core version with <b>syscoind</b> file inside. Download it <a class="link_word" href="https://github.com/syscoin/syscoin">here</a>!</p>
     </div>
 
     <div class="notify">
@@ -18,7 +18,7 @@
 
     <div class="notify">
         <h4 class="notify_header"><i class="fas fa-exclamation-circle"></i> Wallets with Masternodes</h4>
-        <p>Please do not use this application in wallets with Masternodes. For now we did not implement coin control and you can not lock UTXOs. </p>
+        <p class="very_important">Please do not use this application in wallets with Masternodes. For now we did not implement coin control and you can not lock UTXOs. </p>
     </div>
     
     <div class="btn download_btn" @click="download_file">
@@ -72,6 +72,14 @@ main{
         p{
             color: white;
             line-height: 1.5em;
+        }
+
+        .link_word{
+            color: white;
+        }
+
+        .very_important{
+            color: #34d926;
         }
     }
 
