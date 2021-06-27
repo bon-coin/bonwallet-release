@@ -18,7 +18,7 @@
 
     <div class="notify">
         <h4 class="notify_header"><i class="fas fa-exclamation-circle"></i> Wallets with Masternodes</h4>
-        <p class="very_important">Please do not use this application in wallets with Masternodes. For now we did not implement coin control and you can not lock UTXOs. </p>
+        <p class="very_important">Please DO NOT USE this application in wallets with Masternodes. For now we did not implement coin control and you can not lock UTXOs. </p>
     </div>
     
     <div class="btn download_btn" @click="download_file">
