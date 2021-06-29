@@ -35,13 +35,13 @@ export default {
             let download_link;
             switch(os){
                 case "windows": 
-                    download_link = "windows_download_link";
+                    download_link = "https://github.com/bon-coin/bonwallet-release/releases/tag/0.1.0";
                     break;
                 case "linux":
-                    download_link = "linux_download_link";
+                    download_link = "https://github.com/bon-coin/bonwallet-release/releases/tag/0.1.0";
                     break;
                 case "macos":
-                    download_link = "macos_download_link";
+                    download_link = "https://github.com/bon-coin/bonwallet-release/releases/tag/0.1.0";
                     break;
                 default: throw new Error("Wrong operation system!");
             }
